@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CRC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/CRC.res" /d "_DEBUG" "E:\Project\大成源代码\CRC16\CRC\CRC.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP77B3.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/CRC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Project\大成源代码\CRC16\CRC\CRC.cpp"
+"E:\Project\大成源代码\CRC16\CRC\CRCDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP77B3.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP77B4.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/CRC.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Project\大成源代码\CRC16\CRC\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP77B4.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CRC.pdb" /debug /machine:I386 /out:"Debug/CRC.exe" /pdbtype:sept  ".\Debug\CRC.obj" ".\Debug\CRCDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\CRC.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CRC.cpp
+CRCDlg.cpp
+E:\Project\大成源代码\CRC16\CRC\CRCDlg.cpp(187) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/CRC.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\CRC.sbr" ".\Debug\CRCDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CRC.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
